@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;400&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root,
 :root[data-theme='dark'] {
   --primary-color: #f0f0f0;
@@ -46,6 +50,7 @@ html[data-theme='light'] .technologies__logo {
   list-style: none;
   scrollbar-width: thin;
   scrollbar-color: var(--secondary-bg-color) transparent;
+  transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
 }
 
 body {
@@ -245,6 +250,7 @@ p {
 
 .btn--primary span {
   color: var(--primary-color);
+  top: 50px;
 }
 
 .btn--primary {
@@ -282,7 +288,7 @@ main {
   align-items: center;
   gap: 1.25rem;
   padding: 6.25rem 1rem 2rem;
-  background: var(--secondary-bg-color);
+  /*background: var(--secondary-bg-color);*/
   margin-top: -5.5rem;
 }
 
