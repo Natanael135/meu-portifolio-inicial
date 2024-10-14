@@ -120,7 +120,10 @@ h3 {
   color: var(--title-color);
   font-weight: 200;
 }
-
+#title-couse-progress {
+  padding-top: 25px;
+  font-weight: bold;
+}
 p,
 span,
 li {
