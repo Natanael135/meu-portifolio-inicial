@@ -39,7 +39,7 @@ html[data-theme='light'] .brand__logo {
 }
 
 html[data-theme='light'] .technologies__logo {
-  filter: invert(80%);
+  filter: invert(10%);
 }
 
 * {
@@ -50,7 +50,7 @@ html[data-theme='light'] .technologies__logo {
   list-style: none;
   scrollbar-width: thin;
   scrollbar-color: var(--secondary-bg-color) transparent;
-  transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+  transition: background-color 0.4s ease-in-out, color 0.1s ease-in-out;
 }
 
 body {
@@ -162,7 +162,6 @@ p {
   font-size: 1.5rem;
   color: var(--primary-color);
   cursor: pointer;
-  transition: ease-in-out 0.4s;
 }
 
 .menu {
@@ -295,7 +294,6 @@ main {
   align-items: center;
   gap: 1.25rem;
   padding: 6.25rem 1rem 2rem;
-  /*background: var(--secondary-bg-color);*/
   margin-top: -5.5rem;
 }
 
@@ -337,7 +335,7 @@ main {
 .projects__container {
   display: flex;
   flex-direction: column;
-  gap: 4rem;
+  gap: 1.5rem;
 }
 
 .projects__card {
