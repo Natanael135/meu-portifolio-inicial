@@ -203,7 +203,7 @@ p {
 
 .menu__icon,
 .menu__text {
-  color: var(--text-color);
+  color: #56575a;
 }
 
 .menu__icon {
