@@ -121,8 +121,11 @@ h3 {
   font-weight: 200;
 }
 #title-couse-progress {
-  padding-top: 25px;
+  padding-top: 0px;
   font-weight: bold;
+}
+#content-couse-progress {
+  padding-bottom: 15px;
 }
 p,
 span,
