@@ -537,12 +537,13 @@ main {
 
 footer {
   margin-bottom: 5rem;
+  padding-top: 1rem;
 }
 
 footer p {
   font-size: 0.875rem;
   text-align: center;
-  padding: 1rem;
+  padding-bottom: 0.5rem;
 }
 
 /* Responsividade */
