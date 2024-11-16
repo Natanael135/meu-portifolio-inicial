@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR" data-theme="dark">
+<html lang="pt-br" data-theme="dark">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -243,7 +243,7 @@
   </section>
   <section id="projetos" class="projects">
     <h2>Projetos</h2>
-  
+  <!-- Projeto 1 -->
     <div class="projects__container">
       <div class="projects__card">
         <img class="card__cover" src="assets/images/projects/project-gitfind.png" alt="Capa do projeto GitFind">
@@ -323,9 +323,25 @@
  
   <section id="contato" class="contact" target="_blank">
     <h2>Contate-me</h2>
-    
     <p>Estou disponível para serviços e novas conexões.</p>
-    <p>Entre em contato comigo através das minhas redes sociais.</p> 
+    <div class="contact-container">
+      <form action="https://formspree.io/f/xvgorevv" method="POST">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required placeholder="Seu Nome">
+    
+        <label for="whatsapp">WhatsApp:</label>
+        <input type="tel" id="whatsapp" name="whatsapp" pattern="\d*" placeholder="Ex: 5511999999999" required>
+    
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required placeholder="exemplo@dominio.com">
+    
+        <label for="message">Mensagem:</label>
+        <textarea id="message" name="message" required placeholder="Digite aqui sua mensagem"></textarea>
+    
+        <button class="btn btn--primary" type="submit">ENVIAR</button>
+      </form>
+    </div>
+
     <ul class="menu menu--social">
       <li>
         <a class="menu__link" href="https://github.com/natanael135" target="_blank">
@@ -354,7 +370,7 @@
   </section>
 
   <footer>
-    <p>© 2024. Todos os Direitos Reservados. </p>
+    <p>© 2024. Todos os Direitos Reservados.</p>
     <p>by <a href="https://github.com/natanael135" target="_blank">Natanael Melo</a>.</p>
   </footer>
   <script src="assets/js/scripts.js"></script>
