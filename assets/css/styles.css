@@ -335,7 +335,7 @@ main {
 .projects__container {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 3rem;
 }
 
 .projects__card {
@@ -347,7 +347,7 @@ main {
 .card__cover {
   width: 100%;
   border-radius: 0.5rem;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
 }
 
@@ -422,12 +422,14 @@ main {
 }
 
 .about__photo {
-  width: 100%;
+  width: 80%;
   object-fit: cover;
   object-position: center;
+  justify-items: center;
   pointer-events: none;
   border-radius: 50rem;
   border: 1px solid var(--primary-border-color);
+  align-self: center;
 }
 
 .about__description {
@@ -622,7 +624,7 @@ footer p {
   }
 
   .card__cover {
-    width: 55%;
+    width: 65%;
   }
 
   .about {
