@@ -35,6 +35,9 @@ html {
 }
 
 html[data-theme='light'] .brand__logo {
+  filter: invert(-1);
+}
+html[data-theme='dark'] .icon-email {
   filter: invert(1);
 }
 
