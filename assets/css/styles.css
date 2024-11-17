@@ -567,7 +567,7 @@ footer p {
   align-self: center;
 }
 
-/* Seu formulário */
+/* formulário */
 form {
   background: var(--secondary-bg-color);
   border-radius: 0.625rem;
@@ -580,7 +580,6 @@ form {
   width: 100%;
 }
 
-/* Outras regras do formulário (já existentes) */
 form label {
   font-size: 1rem;
   font-weight: bold;
