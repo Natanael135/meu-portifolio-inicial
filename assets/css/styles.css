@@ -562,7 +562,7 @@ footer p {
 .contact-container {
   display: flex;
   align-items: center;
-  min-height: 100vh;
+  min-height: 80vh;
   padding: 1rem;
   align-self: center;
 }
