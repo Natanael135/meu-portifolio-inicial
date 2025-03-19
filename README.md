@@ -6,7 +6,7 @@ Este é meu portfólio pessoal desenvolvido com HTML, CSS, Boostrap e JavaScript
 - [Visão Geral](#visão-geral)
 - [Tecnologias](#tecnologias)
 - [Estrutura de Pastas](#estrutura-de-pastas)
-- [Execução](#execução)
+- [Execução](#como-executar)
 - [Contato](#contato)
 
 ## Visão Geral
